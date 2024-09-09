@@ -4,17 +4,19 @@
     <head>
         <meta charset="utf-8">
         <title>Mythology</title>
-        <link rel="stylesheet" type ="text/css" href="" />
+        <link rel="stylesheet" type ="text/css" href="styling.css">
     </head>
-    <body>
+    <body id="Home">
         <div class="intro">
             
             <h1> World Cup 2022: The Final</h1>
             <h2> Argentina vs. France </h2>
+            <br>
+
             <figure>
-                <img src="IntroImg.webp">                        
+                <img src="IntroImg.webp" alt="World Cup Final Preview">                        
             </figure>
-            <p> Let's go back to 2022, the year of the World Cup. On December 18, 2022,
+            <p class = "intro"> Let's go back to 2022, the year of the World Cup. On December 18, 2022,
                 Argentina faced off against France in Qatar, in the "mythological" final of the 2022 World Cup. 
                 Between the two best players in the world and club teammates, Lionel Messi and Kylian Mbappe faced off in this thrilling encounter. 
                 The current champions of the world vs. the current champions of South America, 
@@ -22,12 +24,72 @@
                 Argentina came out on top, but not with any ease. This game had everything; comebacks, drama, overtime and penalties. 
                 Find out everything you need to know about this match right here on this page. 
              </p>
-           
+
+             <hr>
+
+             <h2>Predict Your Winner</h2> 
+
+
+             <br>
+             <form class = "Prediction">
+                <label for="Predict">Predict the winner:</label>
+                <select name="Team" id="Predict">
+                    <option value="">--Please choose an option--</option>
+                    <option value="Pre">France</option>
+                    <option value="Game">Argentina </option>
+                </select>
+
+                <br><br>
+
+                <!-- <button type="button" onclick="alert('Argentina were the winners') +">Check!</button> -->
+                <div class="check">Hover to Reveal the Winner</div>
+
+                <div class="hidden"> <strong> Argentina!</strong></div>
+            </form>
+  
         </div>
        
         <hr>
 
-        <div class="links">
+
+        <div>
+            <h3>Pages</h3> 
+
+            <figure>
+                <img width = 800 src="FIFAworldcuptrophy.jpeg" alt= "FIFA World Cup Trophy">                        
+            </figure>
+
+            <ul>
+                <li> 
+                    <h4> Pre-Match</h4>
+                    <p>
+                        The matchups, the history, the routes and more. Everything you need to know leading upto the match can be found:                     
+                        <a href="Pre-Match.html">Here</a>
+                    </p>
+                </li>
+                <li> 
+                    <h4> The Game & Stats</h4>
+                    <p>
+                        Argentina lead the game 2-0 heading into the 72nd minutes, and many thought they would secure the win. But, Kylian Mbappe striked and it quickly became 2-2 in just two minutes. 
+                        The game headed into overtime, where it ended 3-3 and was completed in penalties. 
+                        Find out everything about the match, the score, individual performances, goals, and more right:                         
+                        <a href="The-Game-&-Stats.html"> Here</a>
+                    </p>
+                </li>
+                <li> 
+                    <h4> Post-Match </h4>
+                    <p>
+                        After ending 3-3 and going into penalties, Argentina got the crown after an entertaining penalty shootout that ended 4-2. 
+                        Find out everything about the result, the implications, the awards, and more about the end of the tournament:                       
+                        <a href="Post-Match.html"> Here</a>
+                    </p>
+                </li>
+            </ul>
+
+        </div>
+
+        
+        <!-- <div class="links">
 
             <details>
                 <summary> Pre-Match </summary>
@@ -68,13 +130,12 @@
                 </p>
                 <br>
             </details>
-        </div>
+        </div> -->
 
-        <hr>
         <footer>
             <p class = "Footer-links">
-                <a href="index.html">Home</a>
-                <a href="Pre-Match.html">Next</a>
+                <a class = "HomeFoot" href="index.html">Home</a>
+                <a class = "NextFoot" href="Pre-Match.html">Next</a>
             </p>
         </footer>
     </body>

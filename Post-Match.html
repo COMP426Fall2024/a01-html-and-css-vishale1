@@ -4,27 +4,24 @@
     <head>
         <meta charset="utf-8">
         <title>Post-match</title>
-        <link rel="stylesheet" type ="text/css" href="" />
+        <link rel="stylesheet" type ="text/css" href="styling.css">
     </head>
-    <body>
-        <h1>
-            Post-Match
-        </h1>
-        <h2>
-            Argentina Win!
-        </h2>
+    <body id="Post">
+        <div class = "StartBox"> 
+            <h1>
+                Post-Match
+            </h1>
+            <h2>
+                Argentina Win! <img width="40" src="argentinaflag.webp" alt="Argentina Flag"> 
+            </h2>
            
-        <figure>
-            <img width = "900" src="world cup win.jpeg">  
-            <figcaption>
-                <td><em>Player of the tournament, Lionel Messi, lifting the World Cup trophy </em> 
-            </figcaption>                   
-        </figure>
-        
-        <div>
-            <h4>
-                Summary
-            </h4>
+            
+            <figure>
+                <img width = 900 src="world-cup-win.jpeg" alt="Argetina Lifting the Trophy">  
+                <figcaption>
+                    <em>Player of the tournament, Lionel Messi, lifting the World Cup trophy </em> 
+                </figcaption>                   
+            </figure>
 
             <p>
                 The 2022 world cup final ended 3-3 after over time, with Argentina finally clinching their title 
@@ -42,8 +39,8 @@
             Awards
         </h2>
         
-        <figure>
-            <img width="600" src = "award winners.avif">
+        <figure class = AwardsJPG>
+            <img width="600" src = "award-winners.avif">
             <figcaption>
                 <em>
                     The Main Award Winners
@@ -51,29 +48,34 @@
             </figcaption>
         </figure>
 
-        <table class = "Ball Awards"> 
-            <tbody>
-                <tr><td><strong>Golden Ball</strong></td> <td>Lionel Messi</td></tr>
-                <tr><td><strong>Silver Ball</strong></td> <td>Kylian Mbappe</td></tr>
-                <tr><td><strong>Bronze Ball</strong></td> <td>Luka Modrix</td></tr>
-            </tbody>
-        </table>
+        <div class = "AwardsBox">
+          
 
-        <table class = "Boot Awards"> 
-            <tbody>
-                <tr><td><strong>Golden Boot</strong></td> <td>Kylian Mbappe</td></tr>
-                <tr><td><strong>Silver Boot</strong></td> <td>Lionel Messi</td></tr>
-                <tr><td><strong>Bronze Boot</strong></td> <td>Olivier Giroud</td></tr>
-            </tbody>
-        </table>
+            <table class = "AwardsT"> 
+                <tbody>
+                    <tr><td><strong>Golden Ball</strong></td> <td>Lionel Messi</td></tr>
+                    <tr><td><strong>Silver Ball</strong></td> <td>Kylian Mbappe</td></tr>
+                    <tr><td><strong>Bronze Ball</strong></td> <td>Luka Modrix</td></tr>
+                </tbody>
+            </table>
 
-        <table class = "Other Awards"> 
-            <tbody>
-                <tr><td><strong>Golden Glove</strong></td> <td>Emiliano Martinez </td></tr>
-                <tr><td><strong>Young Player Award</strong></td> <td>Enzo Fernandez </td></tr>
-                <tr><td><strong>Fair Play Trophy </strong></td> <td> England </td></tr>
-            </tbody>
-        </table>
+            <table class = "AwardsT"> 
+                <tbody>
+                    <tr><td><strong>Golden Boot</strong></td> <td>Kylian Mbappe</td></tr>
+                    <tr><td><strong>Silver Boot</strong></td> <td>Lionel Messi</td></tr>
+                    <tr><td><strong>Bronze Boot</strong></td> <td>Olivier Giroud</td></tr>
+                </tbody>
+            </table>
+
+            <table class = "AwardsT"> 
+                <tbody>
+                    <tr><td><strong>Golden Glove</strong></td> <td>Emiliano Martinez </td></tr>
+                    <tr><td><strong>Young Player Award</strong></td> <td>Enzo Fernandez </td></tr>
+                    <tr><td><strong>Fair Play Trophy </strong></td> <td> England </td></tr>
+                </tbody>
+            </table>
+
+        </div>
 
         <hr>
 
@@ -81,7 +83,15 @@
             Implications
         </h2>
 
-        <p>
+        <figure class = 'AwardsJPG'>
+            <img width = "500" src="world-cup-trophies-list.webp">  
+                <figcaption>
+                    <em> Most World Cup Wins by Country </em> 
+                </figcaption>  
+        </figure>
+        <br>
+
+        <p class = "imp">
             The 2022 World Cup Final holds significant importance in the world of soccer. Firstly, Argentina
             won there third title, and their first since 1986, ending a 36-year drought; increasing their status
             as one of the elite nations. With a hattrick in the final, Kylian Mbappe showcased his talent and secured the
@@ -91,14 +101,11 @@
         </p>
 
         
-
-        <hr>
         <footer>
             <p class = "Footer-links">
-                <a href="The Game & Stats.html">Previous</a>
+                <a href="The-Game-&-Stats.html"> Previous</a>
                 <a href="index.html">Home</a>
             </p>
-
         </footer>
     </body>
 </html>

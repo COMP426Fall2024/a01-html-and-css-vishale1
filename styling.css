@@ -1,0 +1,339 @@
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+body#G {
+    background-image: url('field.png'); 
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+}
+
+body#Pre {
+    /* background-image: url('FIFAworldcuptrophy.jpeg');  */
+    background-color: #43A1D5;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+
+body#Pre p, pre {
+    max-width:1000px;
+    margin: 0 auto;
+    color: white;
+    /* background-color: #800020;  */
+}
+
+body#Pre pre {
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+    /* background-color: #800020;  */
+}
+
+
+body#Home {
+    /* background-image: url('FIFAworldcuptrophy.jpeg');  */
+    background-color: #56042c;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+
+body#Home h1, body#Home h2, body#Home figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+div.intro > figure + p.intro {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+body#Post {
+    /* background-image: url('messilifiting.jpg');  */
+    background-color: #D2B48C;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white; 
+}
+
+body#Post p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+body#Post p.imp {
+    max-width: 1000px;
+    color: white;
+    text-align: center;
+}
+
+
+div.GameScoreTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+div.Stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.StartBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px; 
+}
+
+h1{
+    font-family: Verdana, sans-serif;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2{
+    font-family: Verdana, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+table {
+    width: 20%;
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid;
+}
+
+.MatchEvents th, .MatchEvents td, .MatchEvents Table {
+    border-style: none;
+    padding: 10px;
+    width: 40%;
+
+ 
+}
+
+.Penalties th, .Penalties td, .Penalties Table {
+    border-style: none;
+    padding: 10px;
+    width: 40%;
+}
+
+td.BigEvents{
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+td.ArgentinaColor{
+    margin: 0;
+    padding: 2px;
+    color: #3a5489; 
+    font-family: Arial, sans-serif;   
+    font-size: 15px;
+    font-weight: bold;
+}
+
+td.Francecolor{
+    margin: 0;
+    padding: 2px;
+    color: #3a5489; 
+    font-family: Arial, sans-serif;          
+    font-size: 15px;
+    font-weight: bold;
+}
+
+td.Goal{
+    margin: 0;
+    padding: 2px;
+    font-family: Arial, sans-serif;          
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+tbody.ArgentinaBox, tr.ArgentinaBox{
+    background-color: #43A1D5; 
+    color: #ffffff;   
+}
+
+tbody.FranceBox, tr.FranceBox{
+    background-color: #17548C; 
+    color: #ffffff;
+    
+}
+
+tbody.Gold, tr.Gold{
+    background-color: #FFD700; 
+    
+}
+
+table.AwardsT{
+    background-color: #FFD700;
+    color: black;
+}
+
+.Goal::after {
+    content: ' ⚽';
+}
+
+.Miss::before {
+    content: ' ❌ ';
+}
+
+.Pen::after{
+    content: ' 🥅';
+}
+
+.Assist::after{
+    content: ' 🦶';
+}
+
+td.Miss{
+    margin: 0;
+    padding: 2px;
+    color: #b23221; 
+    font-family: Arial, sans-serif;          
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+div.RatingBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+div.AwardsBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    padding: 10px;
+    margin: 0px;
+}
+
+figure.AwardsJPG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p.SpacingP {
+    margin: 10px !important; 
+}
+
+.check{
+    padding: 10px ;
+    background-color: #007BFF;
+    color: white;
+    border: 1px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.check:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #43A1D5;
+}
+
+.check:hover + .hidden {
+    display: block;
+}
+
+form{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #D2B48C;
+    width: 30%;
+    margin: 0 auto; 
+    padding: 50px; 
+    border-radius: 10px;
+}
+
+footer{
+    gap: 600px;
+    border-top: 2px solid #fff; 
+    padding-top: 20px
+}
+
+
+footer a{
+    margin: 100px;
+}
+
+
+a{
+    color: #fff;
+}
+
+
+
+
+
+
+
