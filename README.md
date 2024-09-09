@@ -88,4 +88,4 @@ Fill out the following information (edit this ReadMe):
 
 First and Last Name: Vishal Erninti
 
-Deployed Website URL: https://comp426fall2024.github.io/a01-html-and-css-vishale1/index.html
+Deployed Website URL: https://comp426fall2024.github.io/a01-html-and-css-vishale1/ 
