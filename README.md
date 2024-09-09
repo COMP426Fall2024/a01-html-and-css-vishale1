@@ -81,11 +81,11 @@ Pushing changes to your main branch will cause the contents of the site to autom
 Turn the assignment into [Gradescope by Tuesday, September 10th, 3:30 pm](https://www.gradescope.com/courses/834415/assignments)
 
 Fill out the [attribution attestation form for A1](https://docs.google.com/forms/d/e/1FAIpQLScMRlGZZK8pizn4OMkccuMkm3-5TI7uDL4WuodSBKa92kYYRA/viewform?usp=sf_link)
-
+x
 Using CSS frameworks like Bootstrap, Bulma, etc. counts as "incorporating code or content found on-line".
 
 Fill out the following information (edit this ReadMe):
 
-First and Last Name: [Your first and last name]
+First and Last Name: Vishal Erninti
 
-Deployed Website URL: [Your deployed website URL]
+Deployed Website URL: https://comp426fall2024.github.io/a01-html-and-css-vishale1/index.html
